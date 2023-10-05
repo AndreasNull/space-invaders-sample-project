@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4333daf02f30ee14f93143003f75800a, type: 3}
+  m_Name: SpaceInvadersGameSettings
+  m_EditorClassIdentifier: 
+  m_GameInstaller:
+    m_ProjectileAssetPath: projectile
+    m_EnemyAssetPath: enemy
+  m_GameStats:
+    m_SavePath: gs.json
+    m_TotalHighScoresCount: 10
+  m_PlayerSettings:
+    m_HealthHandler:
+      m_MaxLives: 3
+      m_InvulnerableDuretion: 3
+    m_PlayerMoveHandler:
+      m_MoveSpeed: 0.1
+    m_ShooterHanlder:
+      m_Speed: 0.1
+      m_OffsetDistance: 1
+      m_MaxShootInterval: 0.1
+  m_EnemySettings:
+    m_SpawnHandler:
+      m_Rows: 5
+      m_EnemyPerRow: 11
+      m_RowDistance: 2.5
+      m_EnemyDistance: 3
+      m_EnemyConfig:
+      - {fileID: 11400000, guid: bac7f01dd60d473428cc1eb1f3edb016, type: 2}
+      - {fileID: 11400000, guid: bac7f01dd60d473428cc1eb1f3edb016, type: 2}
+      - {fileID: 11400000, guid: 55f03a01272fe7a47bbf5b4cce3b35b3, type: 2}
+      - {fileID: 11400000, guid: 55f03a01272fe7a47bbf5b4cce3b35b3, type: 2}
+      - {fileID: 11400000, guid: 72f8fd2790e772743903a597fe728247, type: 2}
+    m_MoveHandler:
+      m_MoveInterval: 0.5
+      m_MoveIntervalDecreasePercent: 0.2
+      m_MoveHorizontalDistance: 0.2
+      m_MoveVerticalDistance: 1
+    m_ShooterHandler:
+      m_Speed: 0.05
+      m_OffsetDistance: -0.5
+      m_MinShootInterval: 1
+      m_MaxShootInterval: 2

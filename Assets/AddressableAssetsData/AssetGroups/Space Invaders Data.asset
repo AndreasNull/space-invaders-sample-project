@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Space Invaders Data
+  m_EditorClassIdentifier: 
+  m_GroupName: Space Invaders Data
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 3547b444d00166840945d28c2ee16e0b
+  m_SerializeEntries:
+  - m_GUID: 33c7e5db2dbc68246962d4c6aed9ab42
+    m_Address: projectile
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - preload
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 5c70c37176c4e6c4cb80c359d4313e0b
+    m_Address: enemy
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - preload
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 0ca6e3ed8733fb74181b3737dc03c752
+    m_Address: enemy_mesh_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - preload
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: fdf0439127e64734eaddaf4abd772810
+    m_Address: enemy_mesh_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - preload
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 6320ef16bc2b2314f964d586ca77b741
+    m_Address: enemy_mesh_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - preload
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: cd3d9edb1ea431440b212e0bf757d835
+    m_Address: player_model
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - preload
+    m_MainAsset: {fileID: 462565512449791621, guid: cd3d9edb1ea431440b212e0bf757d835, type: 3}
+    m_TargetAsset: {fileID: 462565512449791621, guid: cd3d9edb1ea431440b212e0bf757d835, type: 3}
+  - m_GUID: 0797c05b392ce634caeb4bbb7b672649
+    m_Address: player-invulnerability-fx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - preload
+    m_MainAsset: {fileID: 3931066591519601734, guid: 0797c05b392ce634caeb4bbb7b672649, type: 3}
+    m_TargetAsset: {fileID: 3931066591519601734, guid: 0797c05b392ce634caeb4bbb7b672649, type: 3}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 0ba492e186ec2ba478e1fe6f2e2821e1, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: fb912d334759f2241acafa0fda8538bf, type: 2}
+    - {fileID: 11400000, guid: ec00726622fa0c54eb9380ff4c6185e3, type: 2}
